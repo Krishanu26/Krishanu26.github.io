@@ -15,10 +15,10 @@ A dark, interactive 3D portfolio focused on **backend engineering, applied AI, a
 
 The portfolio intentionally highlights these four projects:
 
-1. **AushadhiSetu — Full-Stack Health Technology:** Java 21, Spring Boot, Spring Security, React, and TypeScript. Medicine catalogue, pharmacy inventory, batch/expiry tracking, role-based dashboards, and reservation workflows. Educational demo with fictional records.
+1. **AushadhiSetu — Full-Stack Health Technology (In Development):** Java 21, Spring Boot, Spring Security, React, and TypeScript. Medicine catalogue, pharmacy inventory, batch/expiry tracking, role-based dashboards, and reservation workflows. Educational demo with fictional records.
 2. **DataFlow — Backend & Data Engineering:** Java 17 and Spring Boot. MapReduce-style parallel CSV analytics, bounded worker pools, backpressure, grouped aggregations, and asynchronous REST APIs.
 3. **AI Mental Health Screening and Support System — Applied AI & Health Technology:** Python, Flask, MongoDB, React, LLaMA 3/Ollama, and NLP. Team project with a structured BDI-II-based assessment and optional AI-assisted chat. Educational screening prototype, not a clinical diagnostic service.
-4. **CivicLens AI — AI, NLP & Civic Technology:** Python, FastAPI, Naive Bayes, inverted-index duplicate matching, trie-based area suggestions, heap-based prioritization, SQLAlchemy, and PostgreSQL deployment configuration. Suggestions remain subject to human review.
+4. **CivicLens AI — AI, NLP & Civic Technology (In Development):** Python, FastAPI, Naive Bayes, inverted-index duplicate matching, trie-based area suggestions, heap-based prioritization, SQLAlchemy, and PostgreSQL deployment configuration. Suggestions remain subject to human review.
 
 ## Tech stack
 
