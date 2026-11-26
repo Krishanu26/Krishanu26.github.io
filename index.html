@@ -3,250 +3,276 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Krishanu Jana is a computer science graduate building thoughtful AI, machine learning, and backend software."
-    />
-    <meta name="theme-color" content="#f7f8f4" />
-    <meta name="referrer" content="no-referrer" />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'"
-    />
-    <title>Krishanu Jana — AI &amp; Software Engineer</title>
+    <meta name="description" content="Krishanu Jana is a software engineer focused on AI, backend development, and dependable software systems. Explore selected projects in Java, Python, FastAPI, and machine learning." />
+    <meta name="theme-color" content="#080d14" />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Krishanu Jana — Software Engineer" />
+    <meta property="og:description" content="Building intelligent tools and dependable software systems." />
+    <meta property="og:url" content="https://krishanu26.github.io/" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <title>Krishanu Jana — Software Engineer | AI &amp; Backend Systems</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
+    <div class="scroll-progress" aria-hidden="true"></div>
     <a class="skip-link" href="#main">Skip to content</a>
+
     <header class="site-header">
-      <a class="wordmark" href="#home" aria-label="Krishanu Jana, home">
-        <span class="wordmark-mark">K<span>.</span></span>
-        <span>Krishanu Jana</span>
+      <a class="brand" href="#home" aria-label="Krishanu Jana, home">
+        <span class="brand-mark">K<span>.</span></span>
+        <span class="brand-name">Krishanu Jana</span>
       </a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
         <span></span><span></span>
-        <span class="sr-only">Toggle navigation</span>
       </button>
       <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
-        <a href="#work">Projects</a>
+        <a href="#work">Work</a>
         <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="#journey">Journey</a>
-        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+        <a class="nav-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
 
     <main id="main">
       <section class="hero section-wrap" id="home">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE GRADUATE · INDIA</p>
-          <h1>Building useful things with <span>intelligence.</span></h1>
-          <p class="hero-description">
-            I'm Krishanu, a 2026 Computer Science graduate exploring the space between
-            machine learning, thoughtful software, and real-world impact.
-          </p>
+          <p class="eyebrow"><span class="availability-dot"></span> OPEN TO SOFTWARE ENGINEERING OPPORTUNITIES</p>
+          <p class="hero-kicker">SOFTWARE ENGINEER <span>·</span> AI &amp; BACKEND SYSTEMS</p>
+          <h1>Building software<br />with <span class="gradient-text">purpose.</span></h1>
+          <p class="hero-description">I’m Krishanu — a Computer Science graduate who enjoys turning complex ideas into useful, reliable software. My work sits at the intersection of applied AI, backend engineering, and thoughtful product building.</p>
           <div class="hero-actions">
-            <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
-            <a class="text-link" href="mailto:janakrishanu26@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+            <a class="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="mailto:janakrishanu26@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
           </div>
-          <div class="hero-meta">
-            <span>Currently open to opportunities</span>
-            <span class="meta-separator"></span>
-            <a href="https://github.com/Krishanu26" target="_blank" rel="noreferrer">GitHub profile ↗</a>
+          <div class="hero-socials">
+            <a href="https://github.com/Krishanu26" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+            <span class="social-divider"></span>
+            <a href="https://linkedin.com/in/krishanu-jana-a36847341" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+            <span class="social-divider"></span>
+            <span class="location-label">WEST BENGAL, INDIA</span>
           </div>
         </div>
 
-        <div class="hero-art" aria-label="Abstract illustration of connected machine-learning nodes" role="img">
-          <div class="art-orbit orbit-one"></div>
-          <div class="art-orbit orbit-two"></div>
-          <div class="art-grid"></div>
-          <svg class="network-art" viewBox="0 0 520 520" fill="none" aria-hidden="true">
-            <path class="network-line" d="M92 283 186 186 279 232 362 133 438 200M92 283l113 101 74-152 105 88 54-120M186 186l19 198 157-221M279 232l105 88M362 133l76 67" />
-            <path class="network-line network-line-muted" d="m92 283 293 37-23-187-176 53-179 97 196 4 235-87" />
-            <circle class="network-node node-coral" cx="92" cy="283" r="13" />
-            <circle class="network-node node-ink" cx="186" cy="186" r="10" />
-            <circle class="network-node node-lime" cx="279" cy="232" r="17" />
-            <circle class="network-node node-ink" cx="362" cy="133" r="11" />
-            <circle class="network-node node-coral" cx="438" cy="200" r="14" />
-            <circle class="network-node node-lime" cx="205" cy="384" r="12" />
-            <circle class="network-node node-ink" cx="384" cy="320" r="16" />
-          </svg>
-          <div class="art-caption"><span>LEARNING SYSTEMS</span><span>01 — 03</span></div>
-          <div class="art-sticker"><span class="sticker-star">✳</span> curiosity<br />in progress</div>
+        <div class="hero-visual" aria-label="Decorative software development terminal illustration">
+          <div class="visual-glow"></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="terminal-card">
+            <div class="terminal-top">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>krishanu.dev <b>—</b> ~/projects</span>
+              <span class="terminal-menu">•••</span>
+            </div>
+            <div class="terminal-body">
+              <p class="terminal-comment"># a little about how I build</p>
+              <p><span class="terminal-purple">const</span> <span class="terminal-blue">developer</span> = {</p>
+              <p class="terminal-indent"><span class="terminal-key">focus</span>: <span class="terminal-string">"AI + backend"</span>,</p>
+              <p class="terminal-indent"><span class="terminal-key">approach</span>: <span class="terminal-string">"build, test, improve"</span>,</p>
+              <p class="terminal-indent"><span class="terminal-key">mindset</span>: <span class="terminal-string">"always learning"</span></p>
+              <p>};</p>
+              <div class="terminal-divider"></div>
+              <p class="terminal-output"><span class="terminal-green">✓</span> Ready to solve useful problems<span class="typing-cursor"></span></p>
+            </div>
+          </div>
+          <div class="float-chip chip-top"><span class="chip-icon">⌘</span> SYSTEMS THINKING</div>
+          <div class="float-chip chip-bottom"><span class="chip-pulse"></span> BUILDING WHAT MATTERS</div>
+          <div class="visual-index">01 <span>/</span> INTRODUCTION</div>
         </div>
-        <div class="hero-scroll" aria-hidden="true"><span></span> SCROLL TO EXPLORE</div>
+        <a class="scroll-cue" href="#work"><span></span> SCROLL TO EXPLORE</a>
       </section>
 
-      <section class="proof-strip" aria-label="Profile highlights">
-        <div class="proof-inner">
-          <p><span class="proof-number">2026</span><span>Computer Science<br />graduate</span></p>
-          <p><span class="proof-number">3</span><span>Featured projects across AI<br />and software systems</span></p>
-          <p><span class="proof-number">2025</span><span>Healthcare internship<br />and hackathon participation</span></p>
-          <p><span class="proof-number">JU</span><span>Python development<br />internship</span></p>
+      <section class="signal-strip" aria-label="Areas of focus">
+        <div class="signal-inner">
+          <div class="signal-item"><span class="signal-icon">⌘</span><span><b>Computer Science</b><small>B.Tech · 2026</small></span></div>
+          <div class="signal-item"><span class="signal-icon">⌁</span><span><b>Backend Engineering</b><small>Java · Python · APIs</small></span></div>
+          <div class="signal-item"><span class="signal-icon">✳</span><span><b>Applied AI</b><small>ML · NLP · LLMs</small></span></div>
+          <div class="signal-item"><span class="signal-icon">◈</span><span><b>Problem Solving</b><small>DSA · Systems · Testing</small></span></div>
         </div>
       </section>
 
       <section class="work-section section-wrap section-space" id="work">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">SELECTED WORK <span class="eyebrow-index">/ 01</span></p>
-            <h2>Ideas, made <span class="serif-accent">real.</span></h2>
+            <p class="eyebrow">SELECTED PROJECTS <span class="section-number">/ 01</span></p>
+            <h2>Work that <span class="serif-accent">speaks.</span></h2>
           </div>
-          <p class="section-intro">Selected work from my CV and GitHub, across applied AI, healthcare, and dependable backend systems.</p>
+          <p class="section-intro">A selection of projects where I’ve explored real engineering challenges — from parallel data processing to explainable AI workflows.</p>
+        </div>
+
+        <div class="project-toolbar">
+          <p>SELECTED BUILD LOG <span>— 03 PROJECTS</span></p>
+          <div class="project-filters" role="group" aria-label="Filter projects">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All work <span>03</span></button>
+            <button class="filter-button" type="button" data-filter="backend" aria-pressed="false">Backend</button>
+            <button class="filter-button" type="button" data-filter="ai" aria-pressed="false">AI / ML</button>
+          </div>
         </div>
 
         <div class="project-grid">
-          <article class="project-card project-featured reveal">
-            <div class="project-visual visual-mind">
-              <div class="visual-topline"><span>MANOBANDHU / AI</span><span>01</span></div>
-              <div class="mind-diagram">
-                <span class="mind-orbit orbit-a"></span>
-                <span class="mind-orbit orbit-b"></span>
-                <span class="mind-core">M</span>
-                <span class="mind-node mind-node-one">NLP</span>
-                <span class="mind-node mind-node-two">BDI-II</span>
-                <span class="mind-node mind-node-three">AI</span>
+          <article class="project-card project-featured reveal" data-category="backend">
+            <div class="project-art art-dataflow">
+              <div class="art-meta"><span>01 / BACKEND SYSTEMS</span><span>JAVA · SPRING BOOT</span></div>
+              <div class="pipeline">
+                <div class="pipeline-node pipeline-source"><span>FILE</span><b>CSV</b></div>
+                <span class="pipeline-connector"></span>
+                <div class="pipeline-node pipeline-split"><span>PARTITION</span><div class="partition-bars"><i></i><i></i><i></i></div></div>
+                <span class="pipeline-connector"></span>
+                <div class="pipeline-workers"><span>WORKERS</span><div><i></i><i></i><i></i></div></div>
+                <span class="pipeline-connector"></span>
+                <div class="pipeline-node pipeline-result"><span>RESULT</span><b>Σ</b></div>
               </div>
-              <span class="visual-label">Technology with empathy</span>
+              <div class="art-bottom"><span>BOUNDED CONCURRENCY</span><span>ASYNC JOB FLOW ↗</span></div>
             </div>
             <div class="project-content">
-              <div class="project-title-line"><h3>Manobandhu</h3><span class="project-type">AI · HEALTHCARE</span></div>
-              <p>An AI-powered mental health screening and support platform combining BDI-II assessment with NLP, sentiment analysis, emotion detection, and conversational assistance.</p>
-              <div class="tag-list"><span>Python</span><span>Flask</span><span>Llama 3</span><span>LangChain</span><span>Scikit-learn</span><span>MongoDB Atlas</span></div>
-              <a class="project-link" href="https://github.com/Krishanu26/Manobandhu--AI-Mental-Health-Screening-and-Support-System" target="_blank" rel="noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a>
-              <p class="project-disclaimer">Experimental screening support, not a diagnosis or clinical decision tool.</p>
+              <div class="project-heading-row"><div><p class="project-label">JAVA · SYSTEM DESIGN</p><h3>DataFlow</h3></div><span class="project-index">01</span></div>
+              <p>A bounded parallel data-processing engine that accepts CSV jobs through REST APIs, partitions datasets, runs concurrent aggregations, and returns deterministic results.</p>
+              <div class="project-highlights"><span>01</span> Backpressure-aware job execution <span>02</span> Thread-safe lifecycle management</div>
+              <div class="tag-list"><span>Java 17</span><span>Spring Boot</span><span>Concurrency</span><span>Maven</span><span>JUnit 5</span></div>
+              <a class="project-link" href="https://github.com/Krishanu26/Dataflow-distributed-engine" target="_blank" rel="noopener noreferrer">Explore repository <span>↗</span></a>
+              <p class="project-note">A single-process engine with a local worker pool — not a multi-node distributed cluster.</p>
             </div>
           </article>
 
-          <article class="project-card reveal">
-            <div class="project-visual visual-flow">
-              <div class="visual-topline"><span>DATAFLOW / ENGINE</span><span>02</span></div>
-              <div class="flow-graphic" aria-hidden="true">
-                <div class="flow-source">CSV</div><span class="flow-arrow">→</span>
-                <div class="flow-partitions"><i></i><i></i><i></i></div><span class="flow-arrow">→</span>
-                <div class="flow-result"><i></i><i></i><i></i></div>
+          <article class="project-card reveal" data-category="ai">
+            <div class="project-art art-civic">
+              <div class="art-meta"><span>02 / APPLIED AI</span><span>PYTHON · FASTAPI</span></div>
+              <div class="civic-ui">
+                <div class="civic-ui-head"><span>REPORT TRIAGE</span><span class="live-indicator">LIVE QUEUE</span></div>
+                <div class="civic-report"><span class="report-icon">⌖</span><div><b>Road damage reported</b><small>Northside · 2 min ago</small></div><em>HIGH</em></div>
+                <div class="civic-report civic-report-muted"><span class="report-icon">◉</span><div><b>Streetlight outage</b><small>Riverside · 18 min ago</small></div><em>MED</em></div>
+                <div class="civic-report civic-report-muted"><span class="report-icon">⌁</span><div><b>Drainage concern</b><small>Central · 31 min ago</small></div><em>LOW</em></div>
+                <div class="civic-ui-foot"><span>CLASSIFY</span><span>FIND DUPLICATES</span><span>PRIORITIZE</span></div>
               </div>
-              <span class="visual-label">One dataset. Many workers.</span>
+              <div class="art-bottom"><span>HUMAN-IN-THE-LOOP</span><span>TRIAGE CONCEPT ↗</span></div>
             </div>
             <div class="project-content">
-              <div class="project-title-line"><h3>DataFlow</h3><span class="project-type">JAVA · SYSTEMS</span></div>
-              <p>A parallel data-processing engine for CSV ingestion, balanced partitioning, concurrent aggregation, and asynchronous job tracking.</p>
-              <div class="tag-list"><span>Java</span><span>Spring Boot</span><span>Concurrency</span><span>REST APIs</span></div>
-              <a class="project-link" href="https://github.com/Krishanu26/Dataflow-distributed-engine" target="_blank" rel="noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a>
-              <p class="project-disclaimer">A single-process project with a local worker pool; not a multi-node cluster.</p>
+              <div class="project-heading-row"><div><p class="project-label">AI · NLP · DATA STRUCTURES</p><h3>CivicLens AI</h3></div><span class="project-index">02</span></div>
+              <p>Turns plain-language civic reports into suggested service categories, possible duplicate matches, and a priority-ranked review queue for human operators.</p>
+              <div class="tag-list"><span>Python</span><span>FastAPI</span><span>Naive Bayes</span><span>SQLAlchemy</span><span>PostgreSQL</span><span>Docker</span></div>
+              <a class="project-link" href="https://github.com/Krishanu26/CivicLens-AI" target="_blank" rel="noopener noreferrer">Explore repository <span>↗</span></a>
+              <p class="project-note">Model suggestions support human review; reports are not automatically closed or dispatched.</p>
             </div>
           </article>
 
-          <article class="project-card reveal">
-            <div class="project-visual visual-bdi">
-              <div class="visual-topline"><span>BDI-II / ASSESSMENT</span><span>03</span></div>
-              <div class="bdi-card">
-                <div class="bdi-card-heading"><span>QUESTIONNAIRE</span><b>01 <i>/ 21</i></b></div>
-                <div class="bdi-question">How have you been feeling lately?</div>
-                <div class="bdi-option"><span>○</span> Not at all</div>
-                <div class="bdi-option bdi-option-active"><span>●</span> A little</div>
-                <div class="bdi-option"><span>○</span> More than usual</div>
+          <article class="project-card reveal" data-category="ai">
+            <div class="project-art art-mental">
+              <div class="art-meta"><span>03 / AI FOR WELLBEING</span><span>REACT · FLASK</span></div>
+              <div class="assessment-ui">
+                <div class="assessment-top"><span>SELF-ASSESSMENT</span><span>01 — 21</span></div>
+                <div class="assessment-title">A more thoughtful<br />check-in.</div>
+                <div class="assessment-progress"><span></span></div>
+                <div class="assessment-options"><i></i><i class="selected"></i><i></i><i></i></div>
+                <div class="assessment-footer"><span>21-ITEM FLOW</span><span>CONSENT-AWARE DATA</span></div>
               </div>
-              <span class="visual-label">A thoughtful, structured check-in</span>
+              <div class="art-bottom"><span>SCREENING + SUPPORT</span><span>RESPONSIBLE AI ↗</span></div>
             </div>
             <div class="project-content">
-              <div class="project-title-line"><h3>BDI-II Assessment App</h3><span class="project-type">HEALTHCARE · WEB</span></div>
-              <p>A web-based screening application built around the 21-item BDI-II questionnaire, with guided question flow, response handling, and MongoDB assessment storage.</p>
-              <div class="tag-list"><span>Python</span><span>Flask</span><span>MongoDB</span></div>
-              <a class="project-link" href="#journey">Built during my Jadavpur University internship <span aria-hidden="true">↗</span></a>
-              <p class="project-disclaimer">A structured screening aid, not a diagnosis or substitute for professional care.</p>
+              <div class="project-heading-row"><div><p class="project-label">AI · HEALTHCARE · FULL STACK</p><h3>AI Mental Health Screening</h3></div><span class="project-index">03</span></div>
+              <p>A web application combining a structured 21-question BDI-II-based self-assessment, score-based guidance, consent-aware MongoDB storage, and optional local LLaMA 3 conversational support.</p>
+              <div class="tag-list"><span>React</span><span>Python</span><span>Flask</span><span>MongoDB</span><span>Ollama</span><span>Scikit-learn</span></div>
+              <a class="project-link" href="https://github.com/Krishanu26/AI-Mental-Health-Screening-and-Support-System" target="_blank" rel="noopener noreferrer">Explore repository <span>↗</span></a>
+              <p class="project-note">An educational screening prototype, not a diagnosis, clinical tool, or crisis service.</p>
             </div>
           </article>
         </div>
-        <a class="all-projects-link" href="https://github.com/Krishanu26?tab=repositories" target="_blank" rel="noreferrer">Browse my GitHub projects <span aria-hidden="true">↗</span></a>
+        <div class="work-footer"><span>MORE EXPERIMENTS, NOTES &amp; SOURCE CODE</span><a href="https://github.com/Krishanu26?tab=repositories" target="_blank" rel="noopener noreferrer">Browse all GitHub repositories <span>↗</span></a></div>
+
+        <div class="in-progress-card">
+          <div class="in-progress-icon">↗</div>
+          <div><p class="project-label">CURRENTLY EXPLORING</p><h3>AushadhiSetu</h3><p>A medicine-access project space focused on making discovery simpler and healthcare information easier to navigate. Currently at the initial setup stage.</p></div>
+          <span class="status-pill"><i></i> IN DEVELOPMENT</span>
+          <a class="in-progress-link" href="https://github.com/Krishanu26/AushadhiSetu" target="_blank" rel="noopener noreferrer" aria-label="View AushadhiSetu repository">↗</a>
+        </div>
       </section>
 
       <section class="about-section section-space" id="about">
         <div class="section-wrap about-layout">
           <div class="about-heading">
-            <p class="eyebrow">A LITTLE ABOUT ME <span class="eyebrow-index">/ 02</span></p>
-            <h2>Code with a<br />human <span class="serif-accent">purpose.</span></h2>
-            <span class="about-doodle" aria-hidden="true">✳</span>
+            <p class="eyebrow">A LITTLE ABOUT ME <span class="section-number">/ 02</span></p>
+            <h2>Curiosity<br />into <span class="serif-accent">craft.</span></h2>
+            <div class="about-orbit" aria-hidden="true"><span>✳</span></div>
           </div>
           <div class="about-copy">
-            <p class="about-lede">I’m drawn to the hard, interesting middle ground: making intelligent systems useful, understandable, and dependable.</p>
-            <p>My work spans NLP and machine learning, Python backend development, and Java-based data systems. I enjoy taking a problem from an early idea to a working, well-structured application—and being honest about what the results do and don’t prove.</p>
-            <div class="skills-panel" id="skills">
-              <h3>My toolkit</h3>
-              <div class="skill-group"><span>AI &amp; DATA</span><p>Machine Learning · NLP · Scikit-learn · TF-IDF · Logistic Regression · LangChain · Llama 3</p></div>
-              <div class="skill-group"><span>BACKEND</span><p>Python · Flask · Java · Spring Boot · REST APIs · MongoDB · MongoDB Atlas · PyMongo · SQL</p></div>
-              <div class="skill-group"><span>FOUNDATIONS</span><p>C · C++ · Data Structures &amp; Algorithms · OOP · Operating Systems · Computer Networks</p></div>
-              <div class="skill-group"><span>TOOLS</span><p>Git · GitHub · Linux · Jupyter Notebook · Maven · VS Code</p></div>
+            <p class="about-lede">I like understanding how things work — then making them work better.</p>
+            <p>My interests span backend architecture, applied machine learning, and the small engineering decisions that make software dependable. I enjoy working end to end: understanding a problem, shaping an implementation, testing edge cases, and documenting trade-offs clearly.</p>
+            <p>As an early-career developer, I’m looking for a team where I can contribute thoughtfully, learn from experienced engineers, and build products with practical impact.</p>
+            <div class="principles-grid">
+              <div><span>01</span><b>Build with intent</b><small>Start with the problem, not the hype.</small></div>
+              <div><span>02</span><b>Keep it dependable</b><small>Think about failure paths and limits.</small></div>
+              <div><span>03</span><b>Stay curious</b><small>Learn, measure, refine, repeat.</small></div>
             </div>
           </div>
         </div>
       </section>
 
+      <section class="skills-section section-wrap section-space" id="skills">
+        <div class="section-heading">
+          <div><p class="eyebrow">TOOLS OF THE TRADE <span class="section-number">/ 03</span></p><h2>My technical <span class="serif-accent">toolkit.</span></h2></div>
+          <p class="section-intro">The technologies and foundations I’ve used across projects, coursework, and hands-on development.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-number">01</span><div class="skill-symbol">⌘</div><h3>Languages</h3><p>Python, Java, C, C++, SQL</p><div class="skill-line"><span style="width:86%"></span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">02</span><div class="skill-symbol">⌁</div><h3>Backend &amp; APIs</h3><p>Flask, FastAPI, Spring Boot, REST APIs</p><div class="skill-line"><span style="width:78%"></span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">03</span><div class="skill-symbol">✳</div><h3>AI &amp; Data</h3><p>Machine Learning, NLP, Scikit-learn, LangChain, LLaMA 3</p><div class="skill-line"><span style="width:74%"></span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">04</span><div class="skill-symbol">◈</div><h3>Data &amp; Storage</h3><p>MongoDB, MongoDB Atlas, PostgreSQL, SQLite</p><div class="skill-line"><span style="width:72%"></span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">05</span><div class="skill-symbol">⌬</div><h3>Engineering</h3><p>OOP, DSA, concurrency, testing, system design fundamentals</p><div class="skill-line"><span style="width:76%"></span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">06</span><div class="skill-symbol">⎔</div><h3>Tools &amp; Workflow</h3><p>Git, GitHub, Linux, Maven, Docker, Jupyter, VS Code</p><div class="skill-line"><span style="width:80%"></span></div></article>
+        </div>
+        <p class="skills-footnote">Skill bars are visual accents, not measured proficiency scores.</p>
+      </section>
+
       <section class="journey-section section-wrap section-space" id="journey">
         <div class="section-heading">
-          <div><p class="eyebrow">THE JOURNEY SO FAR <span class="eyebrow-index">/ 03</span></p><h2>Learning by <span class="serif-accent">building.</span></h2></div>
-          <p class="section-intro">A foundation in computer science, with hands-on experience turning coursework into working software.</p>
+          <div><p class="eyebrow">EDUCATION &amp; EXPERIENCE <span class="section-number">/ 04</span></p><h2>The path <span class="serif-accent">so far.</span></h2></div>
+          <p class="section-intro">A computer science foundation shaped by practical work, collaboration, and a steady habit of learning by building.</p>
         </div>
         <div class="timeline">
-          <article class="timeline-item reveal">
-            <span class="timeline-date">FEB — MAR 2025</span>
-            <div class="timeline-marker"></div>
-            <div class="timeline-body"><p class="timeline-label">INTERNSHIP</p><h3>Python Development Intern</h3><p class="timeline-place">Jadavpur University · Healthcare &amp; Diagnostics</p><p>Built Flask backend components and questionnaire flows for a BDI-II mental-health assessment application, with MongoDB for assessment data.</p><div class="tag-list"><span>Python</span><span>Flask</span><span>MongoDB</span></div></div>
-          </article>
-          <article class="timeline-item reveal">
-            <span class="timeline-date">2023 — 2026</span>
-            <div class="timeline-marker"></div>
-            <div class="timeline-body"><p class="timeline-label">BACHELOR'S DEGREE</p><h3>B.Tech, Computer Science &amp; Engineering</h3><p class="timeline-place">Haldia Institute of Technology · CGPA 7.33 / 10</p><p>Built a strong base in software engineering and computer science while exploring applied AI and backend development.</p></div>
-          </article>
-          <article class="timeline-item reveal">
-            <span class="timeline-date">2019 — 2022</span>
-            <div class="timeline-marker"></div>
-            <div class="timeline-body"><p class="timeline-label">DIPLOMA</p><h3>Computer Science &amp; Technology</h3><p class="timeline-place">Global Institute of Science &amp; Technology, Haldia · CGPA 8.0 / 10</p></div>
-          </article>
-          <article class="timeline-item reveal">
-            <span class="timeline-date">2019</span>
-            <div class="timeline-marker"></div>
-            <div class="timeline-body"><p class="timeline-label">SECONDARY EDUCATION</p><h3>WBBSE Secondary Examination</h3><p class="timeline-place">Rampur Vivekananda Mission Vidyamandir · 45.80%</p></div>
-          </article>
+          <article class="timeline-item reveal"><div class="timeline-date">FEB — MAR 2025 <span>INTERNSHIP</span></div><div class="timeline-marker"></div><div class="timeline-body"><p class="timeline-label">PYTHON DEVELOPMENT INTERN</p><h3>Jadavpur University</h3><p class="timeline-place">Healthcare &amp; Diagnostics</p><p>Worked on Flask backend components and questionnaire flows for a BDI-II-based mental-health assessment application, with MongoDB for assessment data.</p><div class="tag-list"><span>Python</span><span>Flask</span><span>MongoDB</span></div></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">2023 — 2026 <span>BACHELOR’S</span></div><div class="timeline-marker"></div><div class="timeline-body"><p class="timeline-label">B.TECH · COMPUTER SCIENCE &amp; ENGINEERING</p><h3>Haldia Institute of Technology</h3><p class="timeline-place">CGPA 7.33 / 10</p><p>Built a foundation in software engineering and computer science while exploring applied AI, backend development, and data systems.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">2019 — 2022 <span>DIPLOMA</span></div><div class="timeline-marker"></div><div class="timeline-body"><p class="timeline-label">COMPUTER SCIENCE &amp; TECHNOLOGY</p><h3>Global Institute of Science &amp; Technology, Haldia</h3><p class="timeline-place">CGPA 8.0 / 10</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">2019 <span>SECONDARY</span></div><div class="timeline-marker"></div><div class="timeline-body"><p class="timeline-label">WBBSE SECONDARY EXAMINATION</p><h3>Rampur Vivekananda Mission Vidyamandir</h3><p class="timeline-place">45.80%</p></div></article>
         </div>
         <div class="recognition">
-          <div><p class="eyebrow">RECOGNITION &amp; COMMUNITY</p><h3>Curious beyond the classroom.</h3></div>
+          <div><p class="eyebrow">RECOGNITION &amp; COMMUNITY</p><h3>Learning beyond<br />the classroom.</h3></div>
           <ul>
             <li>Swami Vivekananda Merit-cum-Means Scholarship recipient</li>
-            <li>Certificate of Appreciation from Haldia Institute of Technology for participation in the mental-health awareness programme</li>
+            <li>Certificate of Appreciation from Haldia Institute of Technology for participation in a mental-health awareness programme</li>
             <li>Participated in Washington, SmartEarth, and Smallest.AI hackathons (2025)</li>
           </ul>
         </div>
       </section>
 
       <section class="contact-section" id="contact">
+        <div class="contact-grid" aria-hidden="true"></div>
         <div class="section-wrap contact-inner">
-          <div>
-            <p class="eyebrow">HAVE SOMETHING IN MIND? <span class="eyebrow-index">/ 04</span></p>
-            <h2>Let’s build<br /><span class="serif-accent">what’s next.</span></h2>
-            <p class="contact-copy">I’m open to entry-level opportunities in AI/ML, software engineering, and backend development. If something here resonates, I’d love to hear from you.</p>
-            <a class="button button-lime" href="mailto:janakrishanu26@gmail.com">Say hello <span aria-hidden="true">↗</span></a>
+          <div class="contact-copy-block">
+            <p class="eyebrow">HAVE A GOOD PROBLEM TO SOLVE? <span class="section-number">/ 05</span></p>
+            <h2>Let’s make<br /><span class="serif-accent">something matter.</span></h2>
+            <p>I’m open to entry-level opportunities in software engineering, backend development, and AI/ML. I’d love to connect with people building thoughtful products and useful technology.</p>
+            <a class="button button-primary" href="mailto:janakrishanu26@gmail.com">Start a conversation <span aria-hidden="true">↗</span></a>
           </div>
           <div class="contact-details">
-            <a href="mailto:janakrishanu26@gmail.com"><span>EMAIL</span>janakrishanu26@gmail.com <b aria-hidden="true">↗</b></a>
-            <a href="https://github.com/Krishanu26" target="_blank" rel="noreferrer"><span>GITHUB</span>github.com/Krishanu26 <b aria-hidden="true">↗</b></a>
-            <a href="https://linkedin.com/in/krishanu-jana-a36847341" target="_blank" rel="noreferrer"><span>LINKEDIN</span>linkedin.com/in/krishanu-jana-a36847341 <b aria-hidden="true">↗</b></a>
-            <p><span>BASED IN</span>West Bengal, India</p>
+            <a href="mailto:janakrishanu26@gmail.com"><span>EMAIL</span><b>janakrishanu26@gmail.com</b><i>↗</i></a>
+            <a href="https://github.com/Krishanu26" target="_blank" rel="noopener noreferrer"><span>GITHUB</span><b>github.com/Krishanu26</b><i>↗</i></a>
+            <a href="https://linkedin.com/in/krishanu-jana-a36847341" target="_blank" rel="noopener noreferrer"><span>LINKEDIN</span><b>Krishanu Jana</b><i>↗</i></a>
+            <div><span>LOCATION</span><b>West Bengal, India</b></div>
           </div>
-          <div class="contact-spark" aria-hidden="true">✳</div>
+          <div class="contact-decoration" aria-hidden="true">✳</div>
         </div>
       </section>
     </main>
+
     <footer class="site-footer">
-      <a class="wordmark" href="#home"><span class="wordmark-mark">K<span>.</span></span><span>Krishanu Jana</span></a>
-      <p>Thoughtfully built, with a little help from curiosity.</p>
+      <a class="brand" href="#home"><span class="brand-mark">K<span>.</span></span><span class="brand-name">Krishanu Jana</span></a>
+      <p>Designed with intent. Built with curiosity.</p>
       <span>© <span id="current-year">2026</span> KRISHANU JANA</span>
+      <a class="back-to-top" href="#home" aria-label="Back to top">↑</a>
     </footer>
   </body>
 </html>
