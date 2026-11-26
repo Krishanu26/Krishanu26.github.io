@@ -109,214 +109,122 @@
       </div>
 
       <div class="work-filter-row">
-        <span>PROJECT ARCHIVE <b> / 08 REPOSITORIES</b></span>
+        <span>SELECTED PROJECTS <b> / 04 BUILDS</b></span>
         <div class="project-filters" role="group" aria-label="Filter projects">
-          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>08</span></button>
-          <button class="filter-button" type="button" data-filter="backend" aria-pressed="false">Backend <span>02</span></button>
-          <button class="filter-button" type="button" data-filter="ai" aria-pressed="false">AI / ML <span>02</span></button>
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>04</span></button>
+          <button class="filter-button" type="button" data-filter="backend" aria-pressed="false">Backend <span>01</span></button>
+          <button class="filter-button" type="button" data-filter="ai" aria-pressed="false">AI / NLP <span>02</span></button>
           <button class="filter-button" type="button" data-filter="fullstack" aria-pressed="false">Full Stack <span>01</span></button>
-          <button class="filter-button" type="button" data-filter="prototypes" aria-pressed="false">Prototypes <span>03</span></button>
         </div>
       </div>
 
       <div class="project-grid">
-        <article class="project-card project-featured reveal" data-category="backend">
-          <div class="project-art dataflow-art">
-            <div class="art-topline"><span>01 / DATA SYSTEMS</span><span>JAVA · SPRING BOOT</span></div>
-            <div class="dataflow-canvas">
-              <div class="data-node source-node"><small>INPUT</small><b>CSV</b><span>RAW DATA</span></div>
-              <div class="connector"><i></i><i></i><i></i></div>
-              <div class="data-node split-node"><small>PARTITION</small><div class="split-stack"><i></i><i></i><i></i><i></i></div></div>
-              <div class="connector"><i></i><i></i><i></i></div>
-              <div class="worker-node"><small>WORKER POOL</small><div class="worker-cells"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
-              <div class="connector"><i></i><i></i><i></i></div>
-              <div class="data-node output-node"><small>OUTPUT</small><b>Σ</b><span>RESULT</span></div>
-            </div>
-            <div class="art-bottomline"><span>BOUNDED CONCURRENCY</span><span>MAP → PROCESS → REDUCE</span></div>
-            <div class="art-ghost">01</div>
-          </div>
-          <div class="project-info">
-            <div class="project-title-row"><div><span class="project-label">JAVA · PARALLEL PROCESSING</span><h3>DataFlow</h3><small>JAN 2024 — DEC 2024</small></div><span class="project-number">01</span></div>
-            <p class="project-desc">A MapReduce-style parallel data-processing and analytics engine that partitions CSV datasets, executes work concurrently, and combines results through a bounded worker architecture.</p>
-            <div class="project-details">
-              <div><b>01</b><span>Five analytical operations: COUNT, SUM, AVG, MIN, MAX — with grouped aggregation and BigDecimal precision.</span></div>
-              <div><b>02</b><span>Two-level bounded thread pools, backpressure, queue saturation handling, and graceful shutdown.</span></div>
-              <div><b>03</b><span>Asynchronous REST APIs for CSV ingestion, job submission, monitoring, and result retrieval.</span></div>
-            </div>
-            <div class="tag-list"><span>Java 17</span><span>Spring Boot</span><span>Multithreading</span><span>Maven</span><span>JUnit 5</span></div>
-            <a class="project-link" href="https://github.com/Krishanu26/Dataflow-distributed-engine" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
-          </div>
-        </article>
+        <article class="project-card reveal" data-category="fullstack">
+                  <div class="project-art medicine-art">
+                    <div class="art-topline"><span>01 / FULL-STACK HEALTH TECH</span><span>JAVA · REACT</span></div>
+                    <div class="medicine-board">
+                      <div class="medicine-window"><span class="medicine-logo">A<span>+</span></span><b>AushadhiSetu</b><small>MEDICINE ACCESS NETWORK</small></div>
+                      <div class="medicine-flow"><span>PATIENT</span><i>↔</i><span>PHARMACY</span></div>
+                      <div class="medicine-grid"><div><b>01</b><small>CATALOGUE</small></div><div><b>02</b><small>INVENTORY</small></div><div><b>03</b><small>RESERVATIONS</small></div></div>
+                      <div class="medicine-status"><i></i> ROLE-BASED WORKFLOWS</div>
+                    </div>
+                    <div class="art-bottomline"><span>SPRING BOOT API</span><span>REACT + TYPESCRIPT</span></div>
+                  </div>
+                  <div class="project-info">
+                    <div class="project-title-row"><div><span class="project-label">FULL STACK · HEALTH TECHNOLOGY</span><h3>AushadhiSetu</h3><small>JAVA 21 · REACT · TYPESCRIPT</small></div><span class="project-number">01</span></div>
+                    <p class="project-desc">A medicine-discovery and pharmacy-inventory portfolio application connecting patient, pharmacy, and administrator workflows.</p>
+                    <div class="project-details">
+                      <div><b>01</b><span>Role-based dashboards, JWT authentication, and BCrypt password hashing.</span></div>
+                      <div><b>02</b><span>Medicine catalogue, pharmacy availability, batch/expiry tracking, and stock movements.</span></div>
+                      <div><b>03</b><span>Reservation states from pending through fulfilment, with cancellation and stock release.</span></div>
+                    </div>
+                    <div class="tag-list"><span>Java 21</span><span>Spring Boot</span><span>Spring Security</span><span>React</span><span>TypeScript</span><span>Vite</span></div>
+                    <a class="project-link" href="https://github.com/Krishanu26/AushadhiSetu" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
+                    <p class="project-note">Educational demo with fictional sample records—not live pharmacy inventory, prescription authorization, or medical advice.</p>
+                  </div>
+                </article>
 
         <article class="project-card reveal" data-category="backend">
-          <div class="project-art trace-art">
-            <div class="art-topline"><span>02 / BACKEND OBSERVABILITY</span><span>JAVA · PYTHON SDK</span></div>
-            <div class="trace-board">
-              <div class="trace-event"><span class="trace-event-dot"></span><div><small>INCOMING EVENT</small><b>NullPointerException</b><span>checkout-service · event #018</span></div></div>
-              <div class="trace-fingerprint"><span>FINGERPRINT</span><b>8F2A · 91BC · 4D10</b><i>↘ grouped issue</i></div>
-              <div class="trace-issue"><span>ISSUE GROUP</span><b>Repeated exception</b><small>EVENT COUNT <strong>+1</strong></small></div>
-            </div>
-            <div class="art-bottomline"><span>IDEMPOTENT EVENT INTAKE</span><span>PYTHON CLIENT ↔ API</span></div>
-            <div class="art-ghost">02</div>
-          </div>
-          <div class="project-info">
-            <div class="project-title-row"><div><span class="project-label">JAVA · EVENT INGESTION</span><h3>TraceNest</h3><small>BACKEND SYSTEMS PROJECT</small></div><span class="project-number">02</span></div>
-            <p class="project-desc">Backend service combining asynchronous CSV-processing jobs with an error-event intake workflow. A companion Python SDK sends exceptions to the API for grouping and review.</p>
-            <div class="project-details">
-              <div><b>01</b><span>Accepts JSON exception events and groups related failures using stable message fingerprints.</span></div>
-              <div><b>02</b><span>Uses event IDs for idempotent retries and bounded retention for issues and keys.</span></div>
-              <div><b>03</b><span>Includes a Python client alongside bounded job execution, overload handling, and lifecycle tracking.</span></div>
-            </div>
-            <div class="tag-list"><span>Java 17</span><span>Spring Boot</span><span>REST APIs</span><span>Python SDK</span><span>Concurrency</span><span>JUnit</span></div>
-            <a class="project-link" href="https://github.com/Krishanu26/tracenest" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
-            <p class="project-note">The current implementation is a single-process service with in-memory job and issue retention.</p>
-          </div>
-        </article>
+                  <div class="project-art dataflow-art">
+                    <div class="art-topline"><span>02 / DATA ENGINEERING</span><span>JAVA · SPRING BOOT</span></div>
+                    <div class="dataflow-canvas">
+                      <div class="data-node source-node"><small>INPUT</small><b>CSV</b><span>RAW DATA</span></div>
+                      <div class="connector"><i></i><i></i><i></i></div>
+                      <div class="data-node split-node"><small>PARTITION</small><div class="split-stack"><i></i><i></i><i></i><i></i></div></div>
+                      <div class="connector"><i></i><i></i><i></i></div>
+                      <div class="worker-node"><small>WORKER POOL</small><div class="worker-cells"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+                      <div class="connector"><i></i><i></i><i></i></div>
+                      <div class="data-node output-node"><small>OUTPUT</small><b>Σ</b><span>RESULT</span></div>
+                    </div>
+                    <div class="art-bottomline"><span>BOUNDED CONCURRENCY</span><span>MAP → PROCESS → REDUCE</span></div>
+                    <div class="art-ghost">02</div>
+                  </div>
+                  <div class="project-info">
+                    <div class="project-title-row"><div><span class="project-label">BACKEND · PARALLEL DATA PROCESSING</span><h3>DataFlow</h3><small>JAN 2024 — DEC 2024</small></div><span class="project-number">02</span></div>
+                    <p class="project-desc">A MapReduce-style parallel data-processing and analytics engine that partitions CSV datasets, executes work concurrently, and combines results through a bounded worker architecture.</p>
+                    <div class="project-details">
+                      <div><b>01</b><span>Five analytical operations: COUNT, SUM, AVG, MIN, MAX — with grouped aggregation and BigDecimal precision.</span></div>
+                      <div><b>02</b><span>Two-level bounded thread pools, backpressure, queue saturation handling, and graceful shutdown.</span></div>
+                      <div><b>03</b><span>Asynchronous REST APIs for CSV ingestion, job submission, monitoring, and result retrieval.</span></div>
+                    </div>
+                    <div class="tag-list"><span>Java 17</span><span>Spring Boot</span><span>Multithreading</span><span>Maven</span><span>JUnit 5</span></div>
+                    <a class="project-link" href="https://github.com/Krishanu26/Dataflow-distributed-engine" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
+                  </div>
+                </article>
 
         <article class="project-card project-ai reveal" data-category="ai">
-          <div class="project-art mental-art">
-            <div class="art-topline"><span>03 / APPLIED AI</span><span>PYTHON · FLASK</span></div>
-            <div class="assessment-card">
-              <div class="assessment-head"><span>ASSESSMENT ENGINE</span><span>01 — 21</span></div>
-              <div class="assessment-title">A structured<br><em>check-in.</em></div>
-              <div class="assessment-copy">BDI-II QUESTIONNAIRE FLOW</div>
-              <div class="assessment-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-              <div class="assessment-foot"><span>RESPONSE</span><span>PROCESSING</span><span>RESULT</span></div>
-            </div>
-            <div class="art-bottomline"><span>BACKEND DEVELOPER &amp; BACKEND LEAD</span><span>JAN 2025 — JUN 2026</span></div>
-            <div class="art-ghost">03</div>
-          </div>
-          <div class="project-info">
-            <div class="project-title-row"><div><span class="project-label">AI · HEALTHCARE APPLICATION</span><h3>AI Mental Health Screening and Support System</h3><small>JAN 2025 — JUN 2026</small></div><span class="project-number">03</span></div>
-            <p class="project-desc">A team project combining a structured Beck Depression Inventory (BDI-II) self-assessment workflow with AI-assisted chat support and backend data processing.</p>
-            <div class="role-callout"><span>MY ROLE</span><b>Backend Developer &amp; Backend Lead</b><small>THREE-MEMBER DEVELOPMENT TEAM</small></div>
-            <div class="project-details">
-              <div><b>01</b><span>Led backend development using Python and Flask, coordinating application workflows and integration.</span></div>
-              <div><b>02</b><span>Connected the chatbot, assessment engine, and database components through server-side functionality.</span></div>
-              <div><b>03</b><span>Contributed to response processing, automated score calculation, and severity classification.</span></div>
-            </div>
-            <div class="tag-list"><span>Python</span><span>Flask</span><span>MongoDB</span><span>LLaMA 3</span><span>NLP</span><span>Scikit-learn</span></div>
-            <a class="project-link" href="https://github.com/Krishanu26/AI-Mental-Health-Screening-and-Support-System" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
-            <p class="project-note">An educational self-assessment project, not a clinical diagnostic service.</p>
-          </div>
-        </article>
+                  <div class="project-art mental-art">
+                    <div class="art-topline"><span>03 / APPLIED AI</span><span>PYTHON · FLASK</span></div>
+                    <div class="assessment-card">
+                      <div class="assessment-head"><span>ASSESSMENT ENGINE</span><span>01 — 21</span></div>
+                      <div class="assessment-title">A structured<br><em>check-in.</em></div>
+                      <div class="assessment-copy">BDI-II QUESTIONNAIRE FLOW</div>
+                      <div class="assessment-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                      <div class="assessment-foot"><span>RESPONSE</span><span>PROCESSING</span><span>RESULT</span></div>
+                    </div>
+                    <div class="art-bottomline"><span>BACKEND DEVELOPER &amp; BACKEND LEAD</span><span>JAN 2025 — JUN 2026</span></div>
+                    <div class="art-ghost">03</div>
+                  </div>
+                  <div class="project-info">
+                    <div class="project-title-row"><div><span class="project-label">APPLIED AI · HEALTH TECHNOLOGY</span><h3>AI Mental Health Screening and Support System</h3><small>JAN 2025 — JUN 2026</small></div><span class="project-number">03</span></div>
+                    <p class="project-desc">A team project combining a structured Beck Depression Inventory (BDI-II) self-assessment workflow with AI-assisted chat support and backend data processing.</p>
+                    <div class="role-callout"><span>MY ROLE</span><b>Backend Developer &amp; Backend Lead</b><small>THREE-MEMBER DEVELOPMENT TEAM</small></div>
+                    <div class="project-details">
+                      <div><b>01</b><span>Led backend development using Python and Flask, coordinating application workflows and integration.</span></div>
+                      <div><b>02</b><span>Connected the chatbot, assessment engine, and database components through server-side functionality.</span></div>
+                      <div><b>03</b><span>Contributed to response processing, automated score calculation, and severity classification.</span></div>
+                    </div>
+                    <div class="tag-list"><span>Python</span><span>Flask</span><span>MongoDB</span><span>LLaMA 3</span><span>NLP</span><span>Scikit-learn</span></div>
+                    <a class="project-link" href="https://github.com/Krishanu26/AI-Mental-Health-Screening-and-Support-System" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
+                    <p class="project-note">An educational self-assessment project, not a clinical diagnostic service.</p>
+                  </div>
+                </article>
+
         <article class="project-card reveal" data-category="ai">
-          <div class="project-art civic-art">
-            <div class="art-topline"><span>04 / CIVIC TECHNOLOGY</span><span>PYTHON · FASTAPI</span></div>
-            <div class="civic-board">
-              <div class="civic-board-head"><b>REPORT TRIAGE</b><span>REVIEW QUEUE</span></div>
-              <div class="civic-board-row"><i>⌖</i><span><b>Road damage</b><small>Category suggestion</small></span><em>HIGH</em></div>
-              <div class="civic-board-row"><i>⌁</i><span><b>Streetlight outage</b><small>Duplicate candidate</small></span><em>MED</em></div>
-              <div class="civic-board-row"><i>◈</i><span><b>Drainage issue</b><small>Priority-ranked review</small></span><em>LOW</em></div>
-              <div class="civic-board-foot">CLASSIFY · MATCH · HUMAN REVIEW</div>
-            </div>
-            <div class="art-bottomline"><span>EXPLAINABLE NLP</span><span>HUMAN-IN-THE-LOOP</span></div>
-          </div>
-          <div class="project-info">
-            <div class="project-title-row"><div><span class="project-label">AI · NLP · DATA STRUCTURES</span><h3>CivicLens AI</h3><small>COMMUNITY REPORT TRIAGE</small></div><span class="project-number">04</span></div>
-            <p class="project-desc">A civic-report triage API that suggests service categories, finds possible duplicate reports, and creates a priority-ranked queue for human review.</p>
-            <div class="project-details">
-              <div><b>01</b><span>Naive Bayes text classification with confidence hints and a small included example dataset.</span></div>
-              <div><b>02</b><span>Inverted-index duplicate lookup, trie-based area suggestions, and heap-based prioritization.</span></div>
-              <div><b>03</b><span>FastAPI with SQLAlchemy, SQLite locally, PostgreSQL deployment configuration, Docker, and tests.</span></div>
-            </div>
-            <div class="tag-list"><span>Python</span><span>FastAPI</span><span>Naive Bayes</span><span>DSA</span><span>PostgreSQL</span><span>Docker</span></div>
-            <a class="project-link" href="https://github.com/Krishanu26/CivicLens-AI" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
-            <p class="project-note">Suggestions support a human operator; the system does not automatically dispatch or close reports.</p>
-          </div>
-        </article>
-
-        <article class="project-card reveal" data-category="fullstack">
-          <div class="project-art medicine-art">
-            <div class="art-topline"><span>05 / FULL-STACK APPLICATION</span><span>JAVA · REACT</span></div>
-            <div class="medicine-board">
-              <div class="medicine-window"><span class="medicine-logo">A<span>+</span></span><b>AushadhiSetu</b><small>MEDICINE ACCESS NETWORK</small></div>
-              <div class="medicine-flow"><span>PATIENT</span><i>↔</i><span>PHARMACY</span></div>
-              <div class="medicine-grid"><div><b>01</b><small>CATALOGUE</small></div><div><b>02</b><small>INVENTORY</small></div><div><b>03</b><small>RESERVATIONS</small></div></div>
-              <div class="medicine-status"><i></i> ROLE-BASED WORKFLOWS</div>
-            </div>
-            <div class="art-bottomline"><span>SPRING BOOT API</span><span>REACT + TYPESCRIPT</span></div>
-          </div>
-          <div class="project-info">
-            <div class="project-title-row"><div><span class="project-label">FULL STACK · HEALTH TECH</span><h3>AushadhiSetu</h3><small>IN DEVELOPMENT</small></div><span class="project-number">05</span></div>
-            <p class="project-desc">A medicine-discovery and pharmacy-inventory portfolio application connecting patient, pharmacy, and administrator workflows.</p>
-            <div class="project-details">
-              <div><b>01</b><span>Role-based dashboards, JWT authentication, and BCrypt password hashing.</span></div>
-              <div><b>02</b><span>Medicine catalogue, pharmacy availability, batch/expiry tracking, and stock movements.</span></div>
-              <div><b>03</b><span>Reservation states from pending through fulfilment, with cancellation and stock release.</span></div>
-            </div>
-            <div class="tag-list"><span>Java 21</span><span>Spring Boot</span><span>Spring Security</span><span>React</span><span>TypeScript</span><span>Vite</span></div>
-            <a class="project-link" href="https://github.com/Krishanu26/AushadhiSetu" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
-            <p class="project-note">Educational demo with fictional sample records—not live pharmacy inventory, prescription authorization, or medical advice.</p>
-          </div>
-        </article>
-
-        <article class="project-card reveal" data-category="prototypes">
-          <div class="project-art chatbot-art">
-            <div class="art-topline"><span>06 / LLM EXPERIMENT</span><span>PYTHON · OLLAMA</span></div>
-            <div class="chat-terminal">
-              <div class="chat-terminal-top"><i></i><i></i><i></i><span>local-chat / session</span></div>
-              <p><b>you@local</b> <span>›</span> Explain Python decorators</p>
-              <p class="chat-response"><b>llama3</b> <span>›</span> A decorator wraps a function to extend its behaviour...</p>
-              <p><b>you@local</b> <span>›</span> Give me an example</p>
-              <p class="chat-cursor">▌</p>
-            </div>
-            <div class="art-bottomline"><span>LOCAL MODEL</span><span>CONVERSATION CONTEXT</span></div>
-          </div>
-          <div class="project-info">
-            <div class="project-title-row"><div><span class="project-label">LLM · CONVERSATIONAL AI</span><h3>Local LLaMA Chatbot</h3><small>PYTHON CLI PROTOTYPE</small></div><span class="project-number">06</span></div>
-            <p class="project-desc">A terminal-based chatbot experiment using LangChain and Ollama to run LLaMA 3 locally and carry conversation context between turns.</p>
-            <div class="project-details">
-              <div><b>01</b><span>Prompt template combines the current question with the prior session conversation.</span></div>
-              <div><b>02</b><span>LangChain expression pipeline invokes the locally hosted model.</span></div>
-            </div>
-            <div class="tag-list"><span>Python</span><span>LangChain</span><span>Ollama</span><span>LLaMA 3</span></div>
-            <a class="project-link" href="https://github.com/Krishanu26/chatbot" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
-            <p class="project-note">Early CLI experiment; credentials in the older source should be rotated and moved to environment variables before sharing.</p>
-          </div>
-        </article>
-
-        <article class="project-card reveal" data-category="prototypes">
-          <div class="project-art bdi-art">
-            <div class="art-topline"><span>07 / QUESTIONNAIRE PROTOTYPE</span><span>FLASK · MONGODB</span></div>
-            <div class="questionnaire-board">
-              <div class="questionnaire-top"><b>BDI-II</b><span>QUESTION FLOW</span></div>
-              <div class="questionnaire-count"><strong>21</strong><span>ITEMS<br>IN THE FORM</span></div>
-              <div class="questionnaire-progress"><i></i></div>
-              <div class="questionnaire-labels"><span>RESPONSES</span><span>SCORE</span><span>RESULT BAND</span></div>
-              <div class="questionnaire-score"><span>ASSESSMENT RESULT</span><b>0 — 63</b></div>
-            </div>
-            <div class="art-bottomline"><span>LLAMA 3 SUPPORT</span><span>EARLY FLASK BUILD</span></div>
-          </div>
-          <div class="project-info">
-            <div class="project-title-row"><div><span class="project-label">PYTHON · WEB ASSESSMENT</span><h3>BDI Assessment App</h3><small>EARLIER PROJECT ITERATION</small></div><span class="project-number">07</span></div>
-            <p class="project-desc">An earlier Flask-based BDI questionnaire prototype with 21 items, response scoring, result-band calculation, MongoDB storage, and optional LLaMA 3-generated motivational text.</p>
-            <div class="tag-list"><span>Python</span><span>Flask</span><span>MongoDB</span><span>Ollama</span><span>LLaMA 3</span></div>
-            <a class="project-link" href="https://github.com/Krishanu26/bdi" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
-            <p class="project-note">Educational screening prototype only; not a diagnosis or clinical service. Do not submit real personal health data.</p>
-          </div>
-        </article>
-
-        <article class="project-card reveal" data-category="prototypes">
-          <div class="project-art mental-proto-art">
-            <div class="art-topline"><span>08 / WELLBEING WEB APP</span><span>PYTHON · FLASK</span></div>
-            <div class="wellbeing-board">
-              <div class="wellbeing-header"><span>WELLBEING CHECK-IN</span><b>✳</b></div>
-              <div class="wellbeing-message"><small>SUPPORT MESSAGE</small><strong>Small steps<br>can matter.</strong><span>Take a moment. Reach out to someone you trust.</span></div>
-              <div class="wellbeing-options"><i></i><i></i><i></i><i></i></div>
-              <div class="wellbeing-footer"><span>QUESTIONNAIRE</span><span>REFLECTION</span><span>GUIDANCE</span></div>
-            </div>
-            <div class="art-bottomline"><span>PREDEFINED SUPPORT MESSAGES</span><span>EARLY ITERATION</span></div>
-          </div>
-          <div class="project-info">
-            <div class="project-title-row"><div><span class="project-label">PYTHON · WELLBEING PROTOTYPE</span><h3>Mental Assessment Prototype</h3><small>EARLIER PROJECT ITERATION</small></div><span class="project-number">08</span></div>
-            <p class="project-desc">A Flask and MongoDB questionnaire prototype with BDI-style response scoring, result categories, and predefined supportive messages for each screening band.</p>
-            <div class="tag-list"><span>Python</span><span>Flask</span><span>MongoDB</span><span>HTML</span><span>Templates</span></div>
-            <a class="project-link" href="https://github.com/Krishanu26/mental" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
-            <p class="project-note">Earlier educational prototype; not a diagnosis or substitute for professional mental-health support.</p>
-          </div>
-        </article>
-
+                  <div class="project-art civic-art">
+                    <div class="art-topline"><span>04 / CIVIC TECHNOLOGY</span><span>PYTHON · FASTAPI</span></div>
+                    <div class="civic-board">
+                      <div class="civic-board-head"><b>REPORT TRIAGE</b><span>REVIEW QUEUE</span></div>
+                      <div class="civic-board-row"><i>⌖</i><span><b>Road damage</b><small>Category suggestion</small></span><em>HIGH</em></div>
+                      <div class="civic-board-row"><i>⌁</i><span><b>Streetlight outage</b><small>Duplicate candidate</small></span><em>MED</em></div>
+                      <div class="civic-board-row"><i>◈</i><span><b>Drainage issue</b><small>Priority-ranked review</small></span><em>LOW</em></div>
+                      <div class="civic-board-foot">CLASSIFY · MATCH · HUMAN REVIEW</div>
+                    </div>
+                    <div class="art-bottomline"><span>EXPLAINABLE NLP</span><span>HUMAN-IN-THE-LOOP</span></div>
+                  </div>
+                  <div class="project-info">
+                    <div class="project-title-row"><div><span class="project-label">AI · NLP · CIVIC TECHNOLOGY</span><h3>CivicLens AI</h3><small>COMMUNITY REPORT TRIAGE</small></div><span class="project-number">04</span></div>
+                    <p class="project-desc">A civic-report triage API that suggests service categories, finds possible duplicate reports, and creates a priority-ranked queue for human review.</p>
+                    <div class="project-details">
+                      <div><b>01</b><span>Naive Bayes text classification with confidence hints and a small included example dataset.</span></div>
+                      <div><b>02</b><span>Inverted-index duplicate lookup, trie-based area suggestions, and heap-based prioritization.</span></div>
+                      <div><b>03</b><span>FastAPI with SQLAlchemy, SQLite locally, PostgreSQL deployment configuration, Docker, and tests.</span></div>
+                    </div>
+                    <div class="tag-list"><span>Python</span><span>FastAPI</span><span>Naive Bayes</span><span>DSA</span><span>PostgreSQL</span><span>Docker</span></div>
+                    <a class="project-link" href="https://github.com/Krishanu26/CivicLens-AI" target="_blank" rel="noopener noreferrer">EXPLORE REPOSITORY <span>↗</span></a>
+                    <p class="project-note">Suggestions support a human operator; the system does not automatically dispatch or close reports.</p>
+                  </div>
+                </article>
       </div>
 
       <div class="work-footer"><span>MORE EXPERIMENTS &amp; SOURCE CODE</span><a href="https://github.com/Krishanu26?tab=repositories" target="_blank" rel="noopener noreferrer">ALL GITHUB REPOSITORIES ↗</a></div>
