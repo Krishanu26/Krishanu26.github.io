@@ -1,13 +1,16 @@
 # Krishanu Jana — Software Engineering Portfolio
 
-A dark editorial portfolio focused on **Python backend engineering, applied AI, and data systems**. Built with semantic HTML, CSS, and vanilla JavaScript — no framework or build step required.
+A dark, interactive 3D portfolio focused on **Python backend engineering, applied AI, and data systems**. Built with semantic HTML, CSS, and vanilla JavaScript — no framework or build step required.
 
 ## Design
 
 - Dark charcoal visual identity with coral and acid-lime accents
+- CSS-built 3D initials scene with orbiting Python, AI, and Java technology cards
+- Lightweight animated particle canvas and pointer-reactive 3D interactions
 - Bold editorial typography, asymmetrical project layouts, and terminal-inspired profile details
 - Responsive mobile navigation, accessible project filters, scroll progress, and reveal effects
 - Reduced-motion support and semantic page structure
+- No heavy 3D framework or build step; all effects use CSS and vanilla JavaScript
 
 ## Portfolio features
 
