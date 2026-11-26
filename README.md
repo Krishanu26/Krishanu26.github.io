@@ -1,15 +1,20 @@
 # Krishanu Jana — Software Engineering Portfolio
 
-A responsive portfolio focused on **backend engineering, applied AI, and data systems**. Built with semantic HTML, CSS, and vanilla JavaScript — no framework or build step required.
+A dark editorial portfolio focused on **Python backend engineering, applied AI, and data systems**. Built with semantic HTML, CSS, and vanilla JavaScript — no framework or build step required.
 
-## Portfolio
+## Design
 
-- Engineering-inspired visual identity with a light blueprint palette and custom system-flow illustration
-- Responsive navigation, accessible interactions, project filters, and scroll reveals
-- CV preview and PDF download actions in the navigation, hero, and resume section
-- Project write-ups grounded in the supplied CV and linked repositories
-- Experience, education, technical skills, languages, and achievements
+- Dark charcoal visual identity with coral and acid-lime accents
+- Bold editorial typography, asymmetrical project layouts, and terminal-inspired profile details
+- Responsive mobile navigation, accessible project filters, scroll progress, and reveal effects
 - Reduced-motion support and semantic page structure
+
+## Portfolio features
+
+- CV preview and downloadable PDF actions in the navigation, hero, and dedicated resume section
+- Project write-ups grounded in the supplied CV and linked repositories
+- Technical skills, internship experience, education, languages, and achievements
+- Direct contact, GitHub, and LinkedIn links
 
 ## Featured work
 
@@ -32,7 +37,7 @@ Then visit http://localhost:8000.
 
 ## CV
 
-The portfolio includes an online CV preview at `cv.html` and a browser-generated PDF download assembled from the static compressed assets in `cv-assets/`.
+The portfolio includes an online CV preview at `cv.html` and a browser-generated PDF download assembled from static compressed assets in `cv-assets/`.
 
 ## Links
 
