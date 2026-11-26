@@ -70,7 +70,7 @@ if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-mot
 }
 
 // Download the two-page CV PDF from the compressed static assets.
-const cvDownloadLinks = document.querySelectorAll("#nav-download-cv, #download-cv");
+const cvDownloadLinks = document.querySelectorAll("#nav-download-cv, #download-cv, .cv-download");
 cvDownloadLinks.forEach((link) => {
   link.addEventListener("click", async (event) => {
     event.preventDefault();
