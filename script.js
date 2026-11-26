@@ -68,3 +68,39 @@ if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-mot
 } else {
   revealElements.forEach((element) => element.classList.add("is-visible"));
 }
+
+// Download the two-page CV PDF from the compressed static assets.
+const cvDownloadLinks = document.querySelectorAll("#nav-download-cv, #download-cv");
+cvDownloadLinks.forEach((link) => {
+  link.addEventListener("click", async (event) => {
+    event.preventDefault();
+    link.setAttribute("aria-busy", "true");
+    try {
+      const parts = ["cv-0.txt", "cv-1.txt", "cv-2.txt"];
+      const encodedParts = await Promise.all(parts.map(async (part) => {
+        const response = await fetch("cv-assets/" + part);
+        if (!response.ok) throw new Error("CV file part could not be loaded");
+        return response.text();
+      }));
+      const binary = atob(encodedParts.join(""));
+      const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
+      if (!("DecompressionStream" in window)) throw new Error("Gzip decompression is not supported");
+      const pdfBlob = await new Response(
+        new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))
+      ).blob();
+      const downloadUrl = URL.createObjectURL(new Blob([pdfBlob], { type: "application/pdf" }));
+      const downloadLink = document.createElement("a");
+      downloadLink.href = downloadUrl;
+      downloadLink.download = "Krishanu-Jana-CV.pdf";
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      downloadLink.remove();
+      window.setTimeout(() => URL.revokeObjectURL(downloadUrl), 1500);
+    } catch (error) {
+      // Keep the readable web CV available if a browser blocks PDF generation.
+      window.location.href = "cv.html";
+    } finally {
+      link.removeAttribute("aria-busy");
+    }
+  });
+});
