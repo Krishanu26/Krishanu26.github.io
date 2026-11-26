@@ -294,3 +294,8 @@ button { color: inherit; font: inherit; }
   .language-strip { grid-template-columns: 1fr; gap: 17px; padding: 20px; }
   .language-list { gap: 20px; }
 }
+
+
+/* Clear recruiter-facing CV action in the main navigation */
+.primary-nav .nav-download { border-color: rgba(115,224,208,.42); color: var(--cyan); }
+.primary-nav .nav-download:hover { background: rgba(115,224,208,.08); color: var(--lime); }
