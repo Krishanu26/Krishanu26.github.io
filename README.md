@@ -1,6 +1,6 @@
 # Krishanu Jana — Software Engineering Portfolio
 
-A dark, interactive 3D portfolio focused on **Python backend engineering, applied AI, data systems, and full-stack applications**. Built with semantic HTML, CSS, and vanilla JavaScript — no framework or build step required.
+A dark, interactive 3D portfolio focused on **backend engineering, applied AI, and full-stack software development**. Built with semantic HTML, CSS, and vanilla JavaScript — no framework or build step required.
 
 ## Design and interaction
 
@@ -11,20 +11,14 @@ A dark, interactive 3D portfolio focused on **Python backend engineering, applie
 - Reduced-motion support and semantic page structure
 - No heavy 3D framework or build step
 
-## Complete project archive
+## Selected projects
 
-The portfolio links all eight repositories verified in the GitHub account:
+The portfolio intentionally highlights these four projects:
 
-1. **DataFlow** — Java parallel CSV processing and analytics engine with bounded concurrency and asynchronous REST APIs.
-2. **TraceNest** — Java job-processing and error-event intake service with a companion Python SDK.
-3. **AI Mental Health Screening and Support System** — Python/Flask team project combining a BDI-II questionnaire flow with AI-assisted chat support.
-4. **CivicLens AI** — FastAPI civic-report categorization, duplicate suggestions, and human-reviewed triage.
-5. **AushadhiSetu** — Java Spring Boot and React/TypeScript medicine catalogue, pharmacy inventory, and reservation workflow.
-6. **Local LLaMA Chatbot** — early Python CLI experiment using LangChain and Ollama.
-7. **BDI Assessment App** — earlier Flask questionnaire prototype with response scoring and optional LLaMA 3 support.
-8. **Mental Assessment Prototype** — earlier Flask/MongoDB questionnaire and predefined wellbeing-message prototype.
-
-Earlier BDI/Mental experiments are listed separately from the later team mental-health system to show project progression, not as three separate production products. The chatbot, BDI and Mental repositories should have their exposed credentials rotated and stored outside source code before public sharing.
+1. **AushadhiSetu — Full-Stack Health Technology:** Java 21, Spring Boot, Spring Security, React, and TypeScript. Medicine catalogue, pharmacy inventory, batch/expiry tracking, role-based dashboards, and reservation workflows. Educational demo with fictional records.
+2. **DataFlow — Backend & Data Engineering:** Java 17 and Spring Boot. MapReduce-style parallel CSV analytics, bounded worker pools, backpressure, grouped aggregations, and asynchronous REST APIs.
+3. **AI Mental Health Screening and Support System — Applied AI & Health Technology:** Python, Flask, MongoDB, React, LLaMA 3/Ollama, and NLP. Team project with a structured BDI-II-based assessment and optional AI-assisted chat. Educational screening prototype, not a clinical diagnostic service.
+4. **CivicLens AI — AI, NLP & Civic Technology:** Python, FastAPI, Naive Bayes, inverted-index duplicate matching, trie-based area suggestions, heap-based prioritization, SQLAlchemy, and PostgreSQL deployment configuration. Suggestions remain subject to human review.
 
 ## Tech stack
 
