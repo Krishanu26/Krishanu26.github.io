@@ -9,6 +9,8 @@ A responsive, dark editorial-style portfolio built with semantic HTML, modern CS
 - Project filtering by backend and AI/ML focus
 - Scroll progress indicator and subtle reveal motion
 - Reduced-motion support and keyboard focus styles
+- Embedded CV preview and full printable CV page (`cv.html`)
+- CV-aligned contact details, experience dates, education, languages, and achievements
 - Project links, technology summaries, education, experience, and contact details
 
 ## Run locally
