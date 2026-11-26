@@ -395,3 +395,27 @@ button { color: inherit; font: inherit; }
   .trace-board,.civic-board,.medicine-board,.chat-terminal,.questionnaire-board,.wellbeing-board { width: min(355px,100%); }
   .project-art { padding-inline:13px; }
 }
+
+
+/* Project lifecycle labels */
+.project-status {
+  display: inline-flex !important;
+  width: fit-content;
+  align-items: center;
+  gap: 6px;
+  margin: 4px 0 3px;
+  padding: 3px 7px;
+  border: 1px solid rgba(198,237,112,.28);
+  background: rgba(198,237,112,.07);
+  color: var(--acid) !important;
+  font-size: 6px !important;
+  letter-spacing: .12em !important;
+}
+.project-status::before {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--acid);
+  box-shadow: 0 0 0 3px rgba(198,237,112,.09);
+  content: "";
+}
