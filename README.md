@@ -1,34 +1,42 @@
-# Krishanu Jana — Portfolio
+# Krishanu Jana — Software Engineering Portfolio
 
-A responsive, dark editorial-style portfolio built with semantic HTML, modern CSS, and vanilla JavaScript. It has no framework, package installation, or build step.
+A responsive portfolio focused on **backend engineering, applied AI, and data systems**. Built with semantic HTML, CSS, and vanilla JavaScript — no framework or build step required.
 
-## Features
+## Portfolio
 
-- Responsive layouts for desktop, tablet, and mobile
-- Accessible mobile navigation and keyboard dismissal
-- Project filtering by backend and AI/ML focus
-- Scroll progress indicator and subtle reveal motion
-- Reduced-motion support and keyboard focus styles
-- Embedded CV preview and full printable CV page (`cv.html`)
-- CV-aligned contact details, experience dates, education, languages, and achievements
-- Project links, technology summaries, education, experience, and contact details
+- Engineering-inspired visual identity with a light blueprint palette and custom system-flow illustration
+- Responsive navigation, accessible interactions, project filters, and scroll reveals
+- CV preview and PDF download actions in the navigation, hero, and resume section
+- Project write-ups grounded in the supplied CV and linked repositories
+- Experience, education, technical skills, languages, and achievements
+- Reduced-motion support and semantic page structure
+
+## Featured work
+
+- **DataFlow** — Java parallel data processing and analytics engine with bounded concurrency, backpressure, and asynchronous REST APIs.
+- **AI Mental Health Screening and Support System** — Python/Flask team project combining a BDI-II assessment workflow and AI-assisted chat support.
+
+## Tech stack
+
+HTML · CSS · Vanilla JavaScript · Python · Flask · Java · Spring Boot · MongoDB · NLP
 
 ## Run locally
 
-From PowerShell in the project folder:
+Open `index.html` in a browser, or start a local static server:
 
-\`\`\`powershell
-py -m http.server 4173
-\`\`\`
+```bash
+python -m http.server 8000
+```
 
-Open [http://localhost:4173](http://localhost:4173) in your browser. You can also open \`index.html\` directly.
+Then visit http://localhost:8000.
 
-## Deployment
+## CV
 
-This repository is configured as a GitHub Pages user site. Commits to the \`main\` branch are published at:
+The portfolio includes an online CV preview at `cv.html` and a browser-generated PDF download assembled from the static compressed assets in `cv-assets/`.
 
-[https://krishanu26.github.io/](https://krishanu26.github.io/)
+## Links
 
-## Project content
-
-Project descriptions are intentionally scoped to the implementations documented in their repositories. In-progress work is labelled separately from completed projects.
+- Website: https://krishanu26.github.io/
+- GitHub: https://github.com/Krishanu26
+- LinkedIn: https://linkedin.com/in/krishanu-jana-a36847341
+- Email: krishanujana2003@gmail.com
