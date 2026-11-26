@@ -264,3 +264,33 @@ button { color: inherit; font: inherit; }
 .skill-card:nth-child(4) .skill-line span { width: 72%; }
 .skill-card:nth-child(5) .skill-line span { width: 76%; }
 .skill-card:nth-child(6) .skill-line span { width: 80%; }
+
+
+/* CV section and CV-aligned details */
+.resume-section { border-top: 1px solid var(--line); }
+.resume-intro { display: flex; align-items: end; justify-content: space-between; gap: 35px; margin-bottom: 32px; }
+.resume-intro h2 { margin: 0; font: 800 clamp(39px, 4.8vw, 57px)/1.08 var(--display); letter-spacing: -.07em; }
+.resume-copy { max-width: 490px; margin: 15px 0 0; color: var(--muted); font-size: 12px; line-height: 1.85; }
+.resume-actions { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+.resume-open { color: var(--cyan); font-size: 10px; font-weight: 700; }
+.resume-meta { color: #72869a; font: 8px var(--mono); letter-spacing: .1em; }
+.resume-viewer { overflow: hidden; border: 1px solid var(--line-strong); border-radius: 9px; background: #101a26; box-shadow: 0 22px 65px rgba(0,0,0,.2); }
+.resume-viewer-bar { display: flex; height: 42px; align-items: center; justify-content: space-between; padding: 0 15px; border-bottom: 1px solid var(--line); color: #8195a8; font: 8px var(--mono); letter-spacing: .08em; }
+.resume-viewer-bar > span:first-child { display: flex; gap: 5px; }
+.resume-viewer-bar i { width: 7px; height: 7px; border-radius: 50%; background: #f17f78; }
+.resume-viewer-bar i:nth-child(2) { background: #e7bd6b; }.resume-viewer-bar i:nth-child(3) { background: #83c99a; }
+.resume-viewer iframe { display: block; width: 100%; height: 780px; border: 0; background: #fff; }
+.project-date { margin: -5px 0 13px !important; color: #71889b !important; font: 8px var(--mono) !important; letter-spacing: .06em; }
+.language-strip { display: grid; grid-template-columns: .8fr 1.2fr; align-items: center; gap: 35px; margin: 24px 0; padding: 23px 28px; border: 1px solid var(--line); border-radius: 7px; background: rgba(17,28,41,.58); }
+.language-strip .eyebrow { margin: 0 0 5px; }.language-strip h3 { margin: 0; color: #e0eaf0; font: 700 18px var(--display); }
+.language-list { display: flex; flex-wrap: wrap; gap: 28px; }
+.language-list span { display: flex; flex-direction: column; gap: 3px; }.language-list b { color: #dce7ee; font: 600 12px var(--display); }.language-list small { color: var(--cyan); font: 8px var(--mono); letter-spacing: .1em; }
+.recognition ul { padding-left: 18px; }.recognition li { padding: 3px 0; }
+@media (max-width: 700px) {
+  .resume-intro { display: block; }
+  .resume-actions { margin-top: 23px; }
+  .resume-viewer iframe { height: 570px; }
+  .resume-viewer-bar { padding-inline: 10px; font-size: 7px; }
+  .language-strip { grid-template-columns: 1fr; gap: 17px; padding: 20px; }
+  .language-list { gap: 20px; }
+}
